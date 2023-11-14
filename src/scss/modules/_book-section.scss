@@ -1,0 +1,39 @@
+.book-section {
+  background-color: blue;
+  height: 600px;
+  margin: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.book-section-packshot {
+  background-color: purple;
+  height: 600px;
+  width: 50%;
+}
+
+.book-section-information {
+  background-color: green;
+  height: 600px;
+  width: 50%;
+}
+
+.book-section-information-title {
+  background-color: pink;
+  height: 200px;
+}
+
+.book-section-information-author {
+  background-color: orange;
+  height: 50px;
+}
+
+.book-section-information-summary {
+  background-color: orangered;
+  height: 250px;
+}
+
+.book-section-information-button {
+  background-color: palevioletred;
+  height: 100px;
+}

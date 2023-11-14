@@ -19,7 +19,7 @@
 .slider-track {
   height: 100%;
   display: inline-flex;
-  border: 5px solid red;
+  border: 5px solid purple;
   border-radius: 5px;
 }
 
@@ -29,5 +29,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid blue;
+  border: 5px solid orange;
+}
+
+.slider-track .screen-17 {
+  width: calc(400vw - 30px);
 }
