@@ -31,9 +31,94 @@
   border: 5px solid orange;
 }
 
-// .slider-track .screen-7 {
-//   width: calc(400vw - 30px);
-// }
+.slider-track .screen-1 {
+  aspect-ratio: 2 / 1;
+  // background-color: purple;
+}
+
+.screen-1 .box-1 {
+  position: absolute;
+  top: 12%;
+  left: 6%;
+}
+
+.screen-1 .box-1-2 {
+  position: absolute;
+  top: 22%;
+  left: 56%;
+}
+
+.slider-track .screen-2 {
+  aspect-ratio: 1.40625 / 1;
+  // background-color: purple;
+}
+
+.screen-2 .box-2 {
+  position: absolute;
+  top: 20%;
+  left: 18%;
+}
+
+.slider-track .screen-3 {
+  aspect-ratio: 1.40625 / 1;
+  // background-color: purple;
+}
+
+.screen-3 .box-3 {
+  position: absolute;
+  top: 8%;
+  left: 15%;
+  z-index: 2;
+}
+
+.screen-3 .box-3-2 {
+  position: absolute;
+  top: 20%;
+  left: 25.8%;
+}
+
+.slider-track .screen-4 {
+  aspect-ratio: 1.40625 / 1;
+  // background-color: purple;
+}
+
+.screen-4 .box-4 {
+  // background-color: orangered;
+  // height: 80%;
+  // width: 50%;
+  position: absolute;
+  top: 10%;
+  left: 27%;
+}
+
+.slider-track .screen-5 {
+  aspect-ratio: 1.40625 / 1;
+  // background-color: purple;
+}
+
+.screen-5 .box-5 {
+  position: absolute;
+  top: 14%;
+  left: 12%;
+  z-index: 2;
+}
+
+.screen-5 .box-5-2 {
+  position: absolute;
+  top: 28%;
+  left: 35%;
+}
+
+.slider-track .screen-6 {
+  aspect-ratio: 1.40625 / 1;
+  // background-color: purple;
+}
+
+.screen-6 .box-6 {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
 
 .slider-track .screen-7 {
   width: calc(400vw - 30px);
@@ -127,130 +212,15 @@
   left: 86.2%;
 }
 
-.slider-track .screen-1 {
-  aspect-ratio: 2 / 1;
-  background-color: purple;
-}
-
-.screen-1 .box-1 {
-  background-color: orangered;
-  height: 30%;
-  width: 55%;
-  position: absolute;
-  top: 20%;
-  left: 10%;
-}
-
-.screen-1 .box-1-2 {
-  background-color: pink;
-  height: 50%;
-  width: 30%;
-  position: absolute;
-  top: 30%;
-  left: 60%;
-  // bottom: 40px;
-  // right: 60px;
-}
-
-.slider-track .screen-2 {
-  aspect-ratio: 1.40625 / 1;
-  background-color: purple;
-}
-
-.screen-2 .box-2 {
-  background-color: orangered;
-  height: 60%;
-  width: 60%;
-  position: absolute;
-  top: 20%;
-  left: 20%;
-}
-
-.slider-track .screen-3 {
-  aspect-ratio: 1.40625 / 1;
-  background-color: purple;
-}
-
-.screen-3 .box-3 {
-  background-color: orangered;
-  height: 70%;
-  width: 20%;
-  position: absolute;
-  top: 10%;
-  left: 20%;
-  z-index: 2;
-}
-
-.screen-3 .box-3-2 {
-  background-color: pink;
-  height: 70%;
-  width: 50%;
-  position: absolute;
-  top: 20%;
-  left: 35%;
-}
-
-.slider-track .screen-4 {
-  aspect-ratio: 1.40625 / 1;
-  background-color: purple;
-}
-
-.screen-4 .box-4 {
-  background-color: orangered;
-  height: 80%;
-  width: 50%;
-  position: absolute;
-  top: 10%;
-  left: 25%;
-}
-
-.slider-track .screen-5 {
-  aspect-ratio: 1.40625 / 1;
-  background-color: purple;
-}
-
-.screen-5 .box-5 {
-  background-color: orangered;
-  height: 75%;
-  width: 30%;
-  position: absolute;
-  top: 10%;
-  left: 15%;
-  z-index: 2;
-}
-
-.screen-5 .box-5-2 {
-  background-color: pink;
-  height: 40%;
-  width: 60%;
-  position: absolute;
-  top: 30%;
-  left: 25%;
-}
-
-.slider-track .screen-6 {
-  aspect-ratio: 1.40625 / 1;
-  background-color: purple;
-}
-
-.screen-6 .box-6 {
-  background-color: orangered;
-  height: 50%;
-  width: 60%;
-  position: absolute;
-  top: 25%;
-  left: 20%;
-}
-
 .slider-track .screen-8 {
   aspect-ratio: 1.40625 / 1;
-  background-color: purple;
+  // background-color: purple;
 }
 
 .screen-8 .box-8 {
-  background-color: orangered;
-  height: 40%;
-  width: 80%;
+  // background-color: orangered;
+  // height: 40%;
+  // width: 80%;
   position: absolute;
   top: 30%;
   left: 10%;
@@ -258,163 +228,146 @@
 
 .slider-track .screen-9 {
   aspect-ratio: 1.40625 / 1;
-  background-color: purple;
+  // background-color: purple;
 }
 
 .screen-9 .box-9 {
-  background-color: orangered;
-  height: 60%;
-  width: 30%;
   position: absolute;
   top: 20%;
-  left: 10%;
+  left: 5%;
   z-index: 2;
 }
 
 .screen-9 .box-9-2 {
-  background-color: pink;
-  height: 80%;
-  width: 65%;
   position: absolute;
-  top: 10%;
-  left: 25%;
+  top: 8%;
+  left: 19%;
 }
 
 .slider-track .screen-10 {
   aspect-ratio: 1.40625 / 1;
-  background-color: purple;
+  // background-color: purple;
 }
 
 .screen-10 .box-10 {
-  background-color: orangered;
-  height: 60%;
-  width: 60%;
   position: absolute;
-  top: 20%;
-  left: 20%;
+  top: 18%;
+  left: 21%;
 }
 
 .slider-track .screen-11 {
   aspect-ratio: 1.40625 / 1;
-  background-color: purple;
+  // background-color: purple;
 }
 
 .screen-11 .box-11 {
-  background-color: orangered;
-  height: 60%;
-  width: 60%;
   position: absolute;
-  top: 20%;
-  left: 20%;
+  top: 19%;
+  left: 19%;
 }
 
 .slider-track .screen-12 {
   aspect-ratio: 1.40625 / 1;
-  background-color: purple;
+  // background-color: purple;
 }
 
 .screen-12 .box-12 {
-  background-color: orangered;
-  height: 60%;
-  width: 80%;
   position: absolute;
   top: 20%;
-  left: 10%;
+  left: 9.8%;
 }
 
 .slider-track .screen-13 {
   aspect-ratio: 1.40625 / 1;
-  background-color: purple;
+  // background-color: purple;
 }
 
 .screen-13 .box-13 {
-  background-color: orangered;
-  height: 50%;
-  width: 45%;
+  // background-color: orangered;
+  // height: 50%;
+  // width: 45%;
   position: absolute;
   top: 15%;
-  left: 10%;
+  left: 2%;
   z-index: 2;
 }
 
 .screen-13 .box-13-2 {
-  background-color: pink;
-  height: 60%;
-  width: 45%;
+  // background-color: pink;
+  // height: 60%;
+  // width: 45%;
   position: absolute;
-  top: 25%;
-  left: 45%;
+  top: 28%;
+  left: 46.8%;
 }
 
 .slider-track .screen-14 {
   aspect-ratio: 1.40625 / 1;
-  background-color: purple;
+  // background-color: purple;
 }
 
 .screen-14 .box-14 {
-  background-color: orangered;
-  height: 80%;
-  width: 70%;
   position: absolute;
-  top: 10%;
-  left: 15%;
+  top: 13.8%;
+  left: 20%;
 }
 
 .slider-track .screen-15 {
   aspect-ratio: 1.40625 / 1;
-  background-color: purple;
+  // background-color: purple;
 }
 
 .screen-15 .box-15 {
-  background-color: orangered;
-  height: 80%;
-  width: 50%;
+  // background-color: orangered;
+  // height: 80%;
+  // width: 50%;
   position: absolute;
-  top: 10%;
-  left: 20%;
+  top: 11%;
+  left: 16%;
 }
 
 .screen-15 .box-15-2 {
-  background-color: pink;
-  height: 60%;
-  width: 25%;
+  // background-color: pink;
+  // height: 60%;
+  // width: 25%;
   position: absolute;
-  top: 20%;
-  left: 55%;
+  top: 26%;
+  left: 60%;
 }
 
 .slider-track .screen-16 {
   aspect-ratio: 1.40625 / 1;
-  background-color: purple;
+  // background-color: purple;
 }
 
 .screen-16 .box-16 {
-  background-color: orangered;
-  height: 30%;
-  width: 60%;
+  // background-color: orangered;
+  // height: 30%;
+  // width: 60%;
   position: absolute;
-  top: 25%;
-  left: 10%;
+  top: 11%;
+  left: 6%;
+  z-index: 2;
 }
 
 .screen-16 .box-16-2 {
-  background-color: pink;
-  height: 30%;
-  width: 50%;
+  // background-color: pink;
+  // height: 30%;
+  // width: 50%;
   position: absolute;
-  top: 45%;
-  left: 40%;
+  top: 50%;
+  left: 36%;
 }
 
 .slider-track .screen-17 {
   aspect-ratio: 1.40625 / 1;
-  background-color: purple;
+  // background-color: purple;
 }
 
 .screen-17 .box-17 {
-  background-color: orangered;
-  height: 100%;
-  width: 50%;
+  // background-color: orangered;
+  // height: 100%;
+  // width: 50%;
   position: absolute;
-  left: 25%;
+  left: 26%;
 }
