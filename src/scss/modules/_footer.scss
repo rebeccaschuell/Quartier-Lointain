@@ -1,0 +1,46 @@
+// .footer {
+//   background-color: orangered;
+//   height: 100vh;
+//   width: 100vw;
+//   display: flex;
+//   flex-direction: row;
+//   position: relative;
+// }
+
+.footer-sociaux {
+  background-color: pink;
+  height: 30%;
+  width: 33.333%;
+  position: absolute;
+  flex-direction: row;
+}
+
+.footer-navigation-1 {
+  background-color: orange;
+  height: 30%;
+  width: 33.333%;
+  position: absolute;
+  flex-direction: row;
+  left: 33.333%;
+}
+
+.footer-navigation-2 {
+  background-color: purple;
+  height: 30%;
+  width: 33.333%;
+  position: absolute;
+  flex-direction: row;
+  left: 66.666%;
+}
+
+.footer-sociaux-logo {
+  background-color: purple;
+  margin-left: 200px;
+  height: 50%;
+}
+
+.footer-sociaux-copyright {
+  background-color: orange;
+  margin-left: 200px;
+  height: 20%;
+}
