@@ -14,6 +14,7 @@
   border-radius: 10px;
   overflow: auto;
   height: 100vh;
+  // overflow: hidden;
 }
 
 /* slider track */
@@ -29,6 +30,27 @@
   position: relative;
   height: 100%;
   border: 5px solid orange;
+}
+
+.frieze-button {
+  background-color: #263e5e;
+  border: 3px solid #ffffff;
+  border-radius: 50px;
+  transition: ease-out 0.5s;
+}
+
+.frieze-button p {
+  font-family: "Dazzed Heavy";
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 22px 60px;
+}
+
+.frieze-button:hover {
+  scale: 104%;
+  transition-duration: 0.5s;
+  // transition-delay: 8s;
 }
 
 .slider-track .screen-1 {
@@ -77,6 +99,13 @@
   left: 25.8%;
 }
 
+.screen-3 .button-3-3 {
+  position: absolute;
+  top: 19%;
+  left: 74%;
+  z-index: 3;
+}
+
 .slider-track .screen-4 {
   aspect-ratio: 1.40625 / 1;
   // background-color: purple;
@@ -120,8 +149,15 @@
   left: 20%;
 }
 
+.screen-6 .button-6-2 {
+  position: absolute;
+  top: 71%;
+  left: 37%;
+  z-index: 3;
+}
+
 .slider-track .screen-7 {
-  width: calc(400vw - 30px);
+  aspect-ratio: 6.4 / 1;
   // background-color: purple;
 }
 
@@ -223,7 +259,14 @@
   // width: 80%;
   position: absolute;
   top: 30%;
-  left: 10%;
+  left: 8%;
+}
+
+.screen-8 .button-8-2 {
+  position: absolute;
+  top: 65%;
+  left: 70%;
+  z-index: 3;
 }
 
 .slider-track .screen-9 {
@@ -333,6 +376,13 @@
   position: absolute;
   top: 26%;
   left: 60%;
+}
+
+.screen-15 .button-15-3 {
+  position: absolute;
+  top: 85%;
+  left: 10%;
+  z-index: 3;
 }
 
 .slider-track .screen-16 {

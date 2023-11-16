@@ -5,3 +5,16 @@
 @import "modules/book-section";
 @import "modules/footer";
 @import "modules/loader";
+@font-face {
+  font-family: "Dazzed Heavy";
+  src: url("../fonts/DazzedTRIAL-Heavy.woff2") format("woff2"),
+    url("../fonts/DazzedTRIAL-Heavy.woff") format("woff");
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Dazzed Medium";
+  src: url("../fonts/DazzedTRIAL-Medium.woff2") format("woff2"),
+    url("../fonts/DazzedTRIAL-Medium.woff") format("woff");
+  font-display: fallback;
+}
