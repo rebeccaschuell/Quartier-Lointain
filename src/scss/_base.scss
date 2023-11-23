@@ -60,3 +60,26 @@ button a {
 a {
   text-decoration: none;
 }
+
+.cursor {
+  font-family: "Dazzed Heavy";
+  color: #263e5e;
+  font-size: 20px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  box-sizing: border-box;
+  z-index: 4;
+  position: fixed;
+  top: 20px;
+  left: -50px;
+  transform: translate(1140px, 11px);
+}
+
+.hidden {
+  display: none;
+}
+
+// .ball {
+//   display: none;
+// }

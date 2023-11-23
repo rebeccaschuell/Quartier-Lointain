@@ -1,6 +1,5 @@
 .book-section {
   aspect-ratio: 1.40625 / 1;
-  // background-color: blue;
   height: 650px;
   margin: 120px 200px 200px 400px;
   display: flex;
@@ -9,13 +8,9 @@
   justify-content: center;
   align-items: center;
   align-self: center;
-  // display: flex;
-  // flex-direction: row;
-  // align-items: center;
 }
 
 .book-section-packshot {
-  // background-color: purple;
   height: 100%;
   width: 600%;
 }
@@ -25,21 +20,15 @@
 }
 
 .book-section-information {
-  // background-color: green;
-  // height: 600px;
-  // width: 50%;
-  // margin-left: 80px;
   height: 100%;
   width: 600%;
 }
 
 .book-section-information-title {
-  // background-color: pink;
   height: 200px;
 }
 
 .book-section-information-author {
-  // background-color: orange;
   height: 50px;
   margin-top: 18px;
 }
@@ -52,7 +41,6 @@
 }
 
 .book-section-information-summary {
-  // background-color: orangered;
   height: 250px;
   margin-top: 2px;
 }
@@ -65,7 +53,6 @@
 }
 
 .book-section-information-button {
-  // background-color: palevioletred;
   height: 100px;
 }
 
@@ -88,7 +75,6 @@
   border: 3px solid #263e5e;
   border-radius: 50px;
   transition: ease-out 0.5s;
-  // margin-top: 80px;
   position: absolute;
   bottom: 0;
 }
@@ -104,5 +90,4 @@
 .buy-button:hover {
   scale: 104%;
   transition-duration: 0.5s;
-  // transition-delay: 8s;
 }
