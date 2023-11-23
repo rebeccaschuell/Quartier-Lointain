@@ -10,18 +10,18 @@
 
 /* slider mask */
 .slider-mask {
-  border: 5px solid black;
+  // border: 5px solid black;
   border-radius: 10px;
   overflow: auto;
   height: 100vh;
-  // overflow: hidden;
+  overflow: hidden;
 }
 
 /* slider track */
 .slider-track {
   height: 100%;
   display: inline-flex;
-  border: 5px solid purple;
+  // border: 5px solid purple;
   border-radius: 5px;
 }
 
@@ -29,7 +29,7 @@
 .slider-track .screen {
   position: relative;
   height: 100%;
-  border: 5px solid orange;
+  // border: 5px solid orange;
 }
 
 .frieze-button {
@@ -60,14 +60,14 @@
 
 .screen-1 .box-1 {
   position: absolute;
-  top: 12%;
-  left: 6%;
+  top: 10%;
+  left: 7%;
 }
 
 .screen-1 .box-1-2 {
   position: absolute;
-  top: 22%;
-  left: 56%;
+  top: 28%;
+  left: 60%;
 }
 
 .slider-track .screen-2 {
@@ -78,7 +78,7 @@
 .screen-2 .box-2 {
   position: absolute;
   top: 20%;
-  left: 18%;
+  left: 30%;
 }
 
 .slider-track .screen-3 {
@@ -88,21 +88,21 @@
 
 .screen-3 .box-3 {
   position: absolute;
-  top: 8%;
-  left: 15%;
+  top: 7%;
+  left: 14%;
   z-index: 2;
 }
 
 .screen-3 .box-3-2 {
   position: absolute;
-  top: 20%;
-  left: 25.8%;
+  top: 15%;
+  left: 24%;
 }
 
 .screen-3 .button-3-3 {
   position: absolute;
-  top: 19%;
-  left: 74%;
+  top: 14%;
+  left: 62%;
   z-index: 3;
 }
 
@@ -116,7 +116,7 @@
   // height: 80%;
   // width: 50%;
   position: absolute;
-  top: 10%;
+  top: 7%;
   left: 27%;
 }
 
@@ -127,7 +127,7 @@
 
 .screen-5 .box-5 {
   position: absolute;
-  top: 14%;
+  top: 12%;
   left: 12%;
   z-index: 2;
 }
@@ -145,63 +145,64 @@
 
 .screen-6 .box-6 {
   position: absolute;
-  top: 25%;
+  top: 23%;
   left: 20%;
 }
 
 .screen-6 .button-6-2 {
   position: absolute;
-  top: 71%;
-  left: 37%;
+  top: 72%;
+  left: 34%;
   z-index: 3;
 }
 
 .slider-track .screen-7 {
-  aspect-ratio: 6.4 / 1;
+  aspect-ratio: 7.2 / 1;
   // background-color: purple;
+  width: auto;
 }
 
 .screen-7 .box-7 {
   position: absolute;
-  top: 18%;
-  left: 1%;
+  top: 20%;
+  left: 2%;
   z-index: 2;
 }
 
 .screen-7 .box-7-2 {
   position: absolute;
-  top: 10%;
+  top: 8%;
   left: 12%;
 }
 
 .screen-7 .box-7-3 {
   position: absolute;
-  top: 6%;
+  top: 5%;
   left: 17%;
 }
 
 .screen-7 .box-7-4 {
   position: absolute;
-  top: 51%;
+  top: 48%;
   left: 19%;
   z-index: 2;
 }
 
 .screen-7 .box-7-5 {
   position: absolute;
-  top: 15%;
-  left: 27%;
+  top: 14%;
+  left: 27.5%;
 }
 
 .screen-7 .box-7-6 {
   position: absolute;
-  top: 8.2%;
+  top: 6%;
   left: 38.2%;
 }
 
 .screen-7 .box-7-7 {
   position: absolute;
-  top: 12.8%;
+  top: 9%;
   left: 47.3%;
 }
 
@@ -219,32 +220,36 @@
 
 .screen-7 .box-7-10 {
   position: absolute;
-  top: 39%;
+  top: 42%;
   left: 59.5%;
+}
+
+.screen-7 .box-7-10 img {
+  height: 500px;
 }
 
 .screen-7 .box-7-11 {
   position: absolute;
-  top: 11%;
+  top: 9%;
   left: 67%;
 }
 
 .screen-7 .box-7-12 {
   position: absolute;
-  top: 28%;
+  top: 25%;
   left: 72%;
 }
 
 .screen-7 .box-7-13 {
   position: absolute;
-  top: 51%;
-  left: 84%;
+  top: 48%;
+  left: 83.3%;
   z-index: 2;
 }
 
 .screen-7 .box-7-14 {
   position: absolute;
-  top: 10%;
+  top: 11%;
   left: 86.2%;
 }
 
@@ -258,14 +263,14 @@
   // height: 40%;
   // width: 80%;
   position: absolute;
-  top: 30%;
-  left: 8%;
+  top: 28%;
+  left: 17%;
 }
 
 .screen-8 .button-8-2 {
   position: absolute;
-  top: 65%;
-  left: 70%;
+  top: 68%;
+  left: 66%;
   z-index: 3;
 }
 
@@ -276,14 +281,14 @@
 
 .screen-9 .box-9 {
   position: absolute;
-  top: 20%;
+  top: 17%;
   left: 5%;
   z-index: 2;
 }
 
 .screen-9 .box-9-2 {
   position: absolute;
-  top: 8%;
+  top: 5%;
   left: 19%;
 }
 
@@ -294,7 +299,7 @@
 
 .screen-10 .box-10 {
   position: absolute;
-  top: 18%;
+  top: 17%;
   left: 21%;
 }
 
@@ -305,7 +310,7 @@
 
 .screen-11 .box-11 {
   position: absolute;
-  top: 19%;
+  top: 18%;
   left: 19%;
 }
 
@@ -316,7 +321,7 @@
 
 .screen-12 .box-12 {
   position: absolute;
-  top: 20%;
+  top: 18%;
   left: 9.8%;
 }
 
@@ -330,8 +335,8 @@
   // height: 50%;
   // width: 45%;
   position: absolute;
-  top: 15%;
-  left: 2%;
+  top: 14%;
+  left: 7%;
   z-index: 2;
 }
 
@@ -340,8 +345,8 @@
   // height: 60%;
   // width: 45%;
   position: absolute;
-  top: 28%;
-  left: 46.8%;
+  top: 25%;
+  left: 45%;
 }
 
 .slider-track .screen-14 {
@@ -351,7 +356,7 @@
 
 .screen-14 .box-14 {
   position: absolute;
-  top: 13.8%;
+  top: 12%;
   left: 20%;
 }
 
@@ -365,8 +370,8 @@
   // height: 80%;
   // width: 50%;
   position: absolute;
-  top: 11%;
-  left: 16%;
+  top: 8%;
+  left: 20%;
 }
 
 .screen-15 .box-15-2 {
@@ -374,14 +379,14 @@
   // height: 60%;
   // width: 25%;
   position: absolute;
-  top: 26%;
-  left: 60%;
+  top: 25%;
+  left: 56%;
 }
 
 .screen-15 .button-15-3 {
   position: absolute;
   top: 85%;
-  left: 10%;
+  left: 14%;
   z-index: 3;
 }
 
@@ -427,7 +432,7 @@
   height: 100%;
   -aspect-ratio: 3 / 1;
   width: 100vw;
-  border: 5px solid blue;
+  // border: 5px solid blue;
   display: flex;
   align-items: center;
   justify-content: flex-end;

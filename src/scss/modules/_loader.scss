@@ -1,22 +1,14 @@
 .loader {
   aspect-ratio: 1.40625 / 1;
-  // background-color: pink;
   height: 100vh;
   width: 100vw;
-  display: flex;
-  flex-direction: row;
   position: relative;
+  padding-right: 0;
+  overflow: hidden;
 }
 
 .loader-logo {
-  // background-color: orangered;
-  // height: 30%;
-  // width: 40%;
   position: absolute;
   bottom: 80px;
   right: 80px;
-}
-
-.loader video {
-  margin: none;
 }
