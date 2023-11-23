@@ -421,3 +421,38 @@
   position: absolute;
   left: 26%;
 }
+
+// Codepen prof
+.screen {
+  height: 100%;
+  -aspect-ratio: 3 / 1;
+  width: 100vw;
+  border: 5px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.screen-1 {
+  background-color: hsl(var(--screen-hue), 50%, 80%);
+}
+.screen-2 {
+  background-color: hsl(var(--screen-hue), 60%, 70%);
+}
+.screen-3 {
+  background-color: hsl(var(--screen-hue), 70%, 60%);
+}
+.screen-4 {
+  background-color: hsl(var(--screen-hue), 80%, 50%);
+}
+.screen-5 {
+  background-color: hsl(var(--screen-hue), 90%, 40%);
+}
+.screen-6 {
+  background-color: hsl(var(--screen-hue), 100%, 30%);
+}
+
+.spacer {
+  height: 100vh;
+  background-color: lightgrey;
+}
