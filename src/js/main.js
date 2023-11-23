@@ -3,7 +3,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-// Curseur
+// CURSEUR
 document.querySelector(".cursor");
 gsap.set(".ball", { xPercent: -50, yPercent: -50 });
 
@@ -30,6 +30,7 @@ gsap.ticker.add(() => {
   ySet(pos.y);
 });
 
+// FRISE
 var html = document.querySelector("html");
 var button1 = document.querySelector(".button-8-2");
 var button2 = document.querySelector(".button-15-3");

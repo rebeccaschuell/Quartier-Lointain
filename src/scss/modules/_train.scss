@@ -10,7 +10,6 @@
 
 /* slider mask */
 .slider-mask {
-  // border: 5px solid black;
   border-radius: 10px;
   overflow: auto;
   height: 100vh;
@@ -22,7 +21,6 @@
 .slider-track {
   height: 100%;
   display: inline-flex;
-  // border: 5px solid purple;
   border-radius: 5px;
 }
 
@@ -30,7 +28,6 @@
 .slider-track .screen {
   position: relative;
   height: 100%;
-  // border: 5px solid orange;
 }
 
 .frieze-button {
@@ -51,12 +48,10 @@
 .frieze-button:hover {
   scale: 104%;
   transition-duration: 0.5s;
-  // transition-delay: 8s;
 }
 
 .slider-track .screen-1 {
   aspect-ratio: 2 / 1;
-  // background-color: purple;
 }
 
 .screen-1 .box-1 {
@@ -73,7 +68,6 @@
 
 .slider-track .screen-2 {
   aspect-ratio: 1.40625 / 1;
-  // background-color: purple;
 }
 
 .screen-2 .box-2 {
@@ -84,7 +78,6 @@
 
 .slider-track .screen-3 {
   aspect-ratio: 1.40625 / 1;
-  // background-color: purple;
 }
 
 .screen-3 .box-3 {
@@ -109,13 +102,9 @@
 
 .slider-track .screen-4 {
   aspect-ratio: 1.40625 / 1;
-  // background-color: purple;
 }
 
 .screen-4 .box-4 {
-  // background-color: orangered;
-  // height: 80%;
-  // width: 50%;
   position: absolute;
   top: 7%;
   left: 27%;
@@ -123,7 +112,6 @@
 
 .slider-track .screen-5 {
   aspect-ratio: 1.40625 / 1;
-  // background-color: purple;
 }
 
 .screen-5 .box-5 {
@@ -141,7 +129,6 @@
 
 .slider-track .screen-6 {
   aspect-ratio: 1.40625 / 1;
-  // background-color: purple;
 }
 
 .screen-6 .box-6 {
@@ -159,7 +146,6 @@
 
 .slider-track .screen-7 {
   aspect-ratio: 7.2 / 1;
-  // background-color: purple;
   width: auto;
 }
 
@@ -256,13 +242,9 @@
 
 .slider-track .screen-8 {
   aspect-ratio: 1.40625 / 1;
-  // background-color: purple;
 }
 
 .screen-8 .box-8 {
-  // background-color: orangered;
-  // height: 40%;
-  // width: 80%;
   position: absolute;
   top: 28%;
   left: 17%;
@@ -277,7 +259,6 @@
 
 .slider-track .screen-9 {
   aspect-ratio: 1.40625 / 1;
-  // background-color: purple;
 }
 
 .screen-9 .box-9 {
@@ -295,7 +276,6 @@
 
 .slider-track .screen-10 {
   aspect-ratio: 1.40625 / 1;
-  // background-color: purple;
 }
 
 .screen-10 .box-10 {
@@ -306,7 +286,6 @@
 
 .slider-track .screen-11 {
   aspect-ratio: 1.40625 / 1;
-  // background-color: purple;
 }
 
 .screen-11 .box-11 {
@@ -317,7 +296,6 @@
 
 .slider-track .screen-12 {
   aspect-ratio: 1.40625 / 1;
-  // background-color: purple;
 }
 
 .screen-12 .box-12 {
@@ -328,13 +306,9 @@
 
 .slider-track .screen-13 {
   aspect-ratio: 1.40625 / 1;
-  // background-color: purple;
 }
 
 .screen-13 .box-13 {
-  // background-color: orangered;
-  // height: 50%;
-  // width: 45%;
   position: absolute;
   top: 14%;
   left: 7%;
@@ -342,9 +316,6 @@
 }
 
 .screen-13 .box-13-2 {
-  // background-color: pink;
-  // height: 60%;
-  // width: 45%;
   position: absolute;
   top: 25%;
   left: 45%;
@@ -352,7 +323,6 @@
 
 .slider-track .screen-14 {
   aspect-ratio: 1.40625 / 1;
-  // background-color: purple;
 }
 
 .screen-14 .box-14 {
@@ -363,22 +333,15 @@
 
 .slider-track .screen-15 {
   aspect-ratio: 1.40625 / 1;
-  // background-color: purple;
 }
 
 .screen-15 .box-15 {
-  // background-color: orangered;
-  // height: 80%;
-  // width: 50%;
   position: absolute;
   top: 8%;
   left: 20%;
 }
 
 .screen-15 .box-15-2 {
-  // background-color: pink;
-  // height: 60%;
-  // width: 25%;
   position: absolute;
   top: 25%;
   left: 56%;
@@ -393,13 +356,9 @@
 
 .slider-track .screen-16 {
   aspect-ratio: 1.40625 / 1;
-  // background-color: purple;
 }
 
 .screen-16 .box-16 {
-  // background-color: orangered;
-  // height: 30%;
-  // width: 60%;
   position: absolute;
   top: 11%;
   left: 6%;
@@ -407,9 +366,6 @@
 }
 
 .screen-16 .box-16-2 {
-  // background-color: pink;
-  // height: 30%;
-  // width: 50%;
   position: absolute;
   top: 50%;
   left: 36%;
@@ -417,23 +373,17 @@
 
 .slider-track .screen-17 {
   aspect-ratio: 1.40625 / 1;
-  // background-color: purple;
 }
 
 .screen-17 .box-17 {
-  // background-color: orangered;
-  // height: 100%;
-  // width: 50%;
   position: absolute;
   left: 26%;
 }
 
-// Codepen prof
 .screen {
   height: 100%;
   -aspect-ratio: 3 / 1;
   width: 100vw;
-  // border: 5px solid blue;
   display: flex;
   align-items: center;
   justify-content: flex-end;

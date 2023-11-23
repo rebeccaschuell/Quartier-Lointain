@@ -1,12 +1,3 @@
-// .footer {
-//   background-color: orangered;
-//   height: 100vh;
-//   width: 100vw;
-//   display: flex;
-//   flex-direction: row;
-//   position: relative;
-// }
-
 .footer {
   background-color: #263e5e;
   color: #ffffff;
@@ -22,8 +13,7 @@
 .footer-navigation {
   position: relative;
   flex-direction: row;
-  margin-top: 93px;
-  // left: 617px;
+  margin-top: 96px;
 }
 
 .footer-navigation-1 {
@@ -50,7 +40,6 @@
 .footer-navigation-2 {
   position: absolute;
   left: 66.666%;
-  // left: 966px;
 }
 
 .footer-navigation p {
@@ -71,12 +60,10 @@
   height: 86px;
   position: absolute;
   top: 60;
-  // left: 200;
 }
 
 .footer-contact-copyright {
   position: absolute;
-  // left: 200;
   top: 163;
 }
 
@@ -90,7 +77,6 @@
   position: absolute;
   font-size: 40px;
   top: 195;
-  // left: 200;
   display: flex;
   flex-direction: row;
 }
