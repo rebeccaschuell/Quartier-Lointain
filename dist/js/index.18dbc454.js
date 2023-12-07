@@ -587,7 +587,7 @@ var tlMain = (0, _gsap.gsap).timeline({
     }
 });
 tlMain.set(".slider-track", {
-    x: "-50%"
+    x: "-53%"
 });
 tlMain.to(".slider-track", {
     duration: 0,
@@ -599,7 +599,7 @@ tlMain.to(".slider-track", {
     }
 });
 tlMain.to(".slider-track", {
-    x: "-84.8%",
+    x: "-85.4%",
     duration: 10,
     ease: "power1.inOut",
     onComplete: ()=>{
@@ -626,7 +626,7 @@ tlMain.to({}, {
     duration: 0.5
 });
 tlMain.to(".slider-track", {
-    x: "-9.7%",
+    x: "-10.6%",
     duration: 8,
     ease: "power1.inOut",
     onComplete: ()=>{
@@ -640,7 +640,7 @@ tlMain.to({}, {
     duration: 0.5
 });
 tlMain.to(".slider-track", {
-    x: "-24.8%",
+    x: "-24.5%",
     duration: 8,
     ease: "power1.inOut",
     onComplete: ()=>{

@@ -30,11 +30,17 @@
   height: 100%;
 }
 
+.slider-track .screen .box img {
+  width: 100%;
+  // border: 3px solid blue;
+}
+
 .frieze-button {
   background-color: #263e5e;
   border: 3px solid #ffffff;
   border-radius: 50px;
   transition: ease-out 0.5s;
+  cursor: pointer;
 }
 
 .frieze-button p {
@@ -58,12 +64,14 @@
   position: absolute;
   top: 10%;
   left: 7%;
+  width: 66%;
 }
 
 .screen-1 .box-1-2 {
   position: absolute;
   top: 28%;
   left: 60%;
+  width: 38%;
 }
 
 .slider-track .screen-2 {
@@ -72,31 +80,43 @@
 
 .screen-2 .box-2 {
   position: absolute;
-  top: 20%;
-  left: 30%;
+  top: 18%;
+  left: 15%;
+  width: 70%;
 }
 
 .slider-track .screen-3 {
   aspect-ratio: 1.40625 / 1;
 }
 
+.screen-3-box {
+  position: absolute;
+  // background-color: red;
+  top: 11%;
+  left: 8%;
+  height: 80%;
+  width: 80%;
+}
+
 .screen-3 .box-3 {
   position: absolute;
-  top: 7%;
-  left: 14%;
+  top: 0%;
+  left: 4%;
   z-index: 2;
+  width: 20%;
 }
 
 .screen-3 .box-3-2 {
   position: absolute;
-  top: 15%;
-  left: 24%;
+  bottom: 0%;
+  right: 6%;
+  width: 76%;
 }
 
 .screen-3 .button-3-3 {
   position: absolute;
-  top: 14%;
-  left: 62%;
+  top: 7%;
+  right: 0%;
   z-index: 3;
 }
 
@@ -107,7 +127,8 @@
 .screen-4 .box-4 {
   position: absolute;
   top: 7%;
-  left: 27%;
+  left: 25%;
+  width: 48%;
 }
 
 .slider-track .screen-5 {
@@ -116,31 +137,43 @@
 
 .screen-5 .box-5 {
   position: absolute;
-  top: 12%;
-  left: 12%;
+  top: 11%;
+  left: 10%;
   z-index: 2;
+  width: 30%;
 }
 
 .screen-5 .box-5-2 {
   position: absolute;
-  top: 28%;
-  left: 35%;
+  top: 26%;
+  left: 30%;
+  width: 60%;
 }
 
 .slider-track .screen-6 {
   aspect-ratio: 1.40625 / 1;
 }
 
+.screen-6-box {
+  position: absolute;
+  // background-color: red;
+  top: 20%;
+  left: 15%;
+  height: 62%;
+  width: 70%;
+}
+
 .screen-6 .box-6 {
   position: absolute;
-  top: 23%;
-  left: 20%;
+  top: 0%;
+  left: 0%;
+  width: 100%;
 }
 
 .screen-6 .button-6-2 {
   position: absolute;
-  top: 72%;
-  left: 34%;
+  bottom: 0%;
+  left: 32%;
   z-index: 3;
 }
 
@@ -152,20 +185,22 @@
 .screen-7 .box-7 {
   position: absolute;
   top: 20%;
-  left: 2%;
-  z-index: 2;
+  left: 1.6%;
+  width: 9.6%;
 }
 
 .screen-7 .box-7-2 {
   position: absolute;
-  top: 8%;
+  top: 7%;
   left: 12%;
+  width: 4.6%;
 }
 
 .screen-7 .box-7-3 {
   position: absolute;
   top: 5%;
-  left: 17%;
+  left: 17.2%;
+  width: 9.6%;
 }
 
 .screen-7 .box-7-4 {
@@ -173,58 +208,63 @@
   top: 48%;
   left: 19%;
   z-index: 2;
+  width: 9.6%;
 }
 
 .screen-7 .box-7-5 {
   position: absolute;
   top: 14%;
   left: 27.5%;
+  width: 10.4%;
 }
 
 .screen-7 .box-7-6 {
   position: absolute;
-  top: 6%;
-  left: 38.2%;
+  top: 5%;
+  left: 38.4%;
+  width: 8.4%;
 }
 
 .screen-7 .box-7-7 {
   position: absolute;
   top: 9%;
-  left: 47.3%;
+  left: 47.4%;
+  width: 9.6%;
 }
 
 .screen-7 .box-7-8 {
   position: absolute;
   top: 52.2%;
   left: 49%;
+  width: 10%;
 }
 
 .screen-7 .box-7-9 {
   position: absolute;
   top: 4%;
   left: 57.8%;
+  width: 8.2%;
 }
 
 .screen-7 .box-7-10 {
   position: absolute;
   top: 42%;
-  left: 59.5%;
-}
-
-.screen-7 .box-7-10 img {
-  height: 500px;
+  left: 60%;
+  width: 6%;
 }
 
 .screen-7 .box-7-11 {
   position: absolute;
   top: 9%;
   left: 67%;
+  width: 4.4%;
 }
 
 .screen-7 .box-7-12 {
   position: absolute;
   top: 25%;
   left: 72%;
+  width: 10.6%;
 }
 
 .screen-7 .box-7-13 {
@@ -232,28 +272,40 @@
   top: 48%;
   left: 83.3%;
   z-index: 2;
+  width: 7%;
 }
 
 .screen-7 .box-7-14 {
   position: absolute;
   top: 11%;
   left: 86.2%;
+  width: 12%;
 }
 
 .slider-track .screen-8 {
   aspect-ratio: 1.40625 / 1;
 }
 
+.screen-8-box {
+  position: absolute;
+  // background-color: red;
+  top: 30%;
+  left: 7%;
+  height: 43%;
+  width: 86%;
+}
+
 .screen-8 .box-8 {
   position: absolute;
-  top: 28%;
-  left: 17%;
+  top: 0%;
+  left: 0%;
+  width: 92%;
 }
 
 .screen-8 .button-8-2 {
   position: absolute;
-  top: 68%;
-  left: 66%;
+  bottom: 0%;
+  right: 0%;
   z-index: 3;
 }
 
@@ -263,15 +315,17 @@
 
 .screen-9 .box-9 {
   position: absolute;
-  top: 17%;
-  left: 5%;
+  top: 19%;
+  left: 4%;
   z-index: 2;
+  width: 30%;
 }
 
 .screen-9 .box-9-2 {
   position: absolute;
-  top: 5%;
+  top: 7%;
   left: 19%;
+  width: 78%;
 }
 
 .slider-track .screen-10 {
@@ -280,8 +334,9 @@
 
 .screen-10 .box-10 {
   position: absolute;
-  top: 17%;
-  left: 21%;
+  top: 15%;
+  left: 17%;
+  width: 66%;
 }
 
 .slider-track .screen-11 {
@@ -290,8 +345,9 @@
 
 .screen-11 .box-11 {
   position: absolute;
-  top: 18%;
-  left: 19%;
+  top: 16%;
+  left: 15%;
+  width: 70%;
 }
 
 .slider-track .screen-12 {
@@ -300,8 +356,9 @@
 
 .screen-12 .box-12 {
   position: absolute;
-  top: 18%;
-  left: 9.8%;
+  top: 20%;
+  left: 10%;
+  width: 80%;
 }
 
 .slider-track .screen-13 {
@@ -311,14 +368,16 @@
 .screen-13 .box-13 {
   position: absolute;
   top: 14%;
-  left: 7%;
+  left: 4%;
   z-index: 2;
+  width: 45%;
 }
 
 .screen-13 .box-13-2 {
   position: absolute;
   top: 25%;
-  left: 45%;
+  left: 41%;
+  width: 55%;
 }
 
 .slider-track .screen-14 {
@@ -327,30 +386,42 @@
 
 .screen-14 .box-14 {
   position: absolute;
-  top: 12%;
-  left: 20%;
+  top: 9%;
+  left: 15%;
+  width: 70%;
 }
 
 .slider-track .screen-15 {
   aspect-ratio: 1.40625 / 1;
 }
 
+.screen-15-box {
+  position: absolute;
+  // background-color: red;
+  top: 11%;
+  left: 14%;
+  height: 80%;
+  width: 70%;
+}
+
 .screen-15 .box-15 {
   position: absolute;
-  top: 8%;
-  left: 20%;
+  top: 0%;
+  left: 10%;
+  width: 76%;
 }
 
 .screen-15 .box-15-2 {
   position: absolute;
-  top: 25%;
-  left: 56%;
+  top: 24%;
+  right: 0%;
+  width: 30%;
 }
 
 .screen-15 .button-15-3 {
   position: absolute;
-  top: 85%;
-  left: 14%;
+  bottom: 0%;
+  left: 0%;
   z-index: 3;
 }
 
@@ -361,14 +432,16 @@
 .screen-16 .box-16 {
   position: absolute;
   top: 11%;
-  left: 6%;
+  left: 3%;
   z-index: 2;
+  width: 70%;
 }
 
 .screen-16 .box-16-2 {
   position: absolute;
   top: 50%;
-  left: 36%;
+  left: 35%;
+  width: 62%;
 }
 
 .slider-track .screen-17 {
@@ -378,12 +451,13 @@
 .screen-17 .box-17 {
   position: absolute;
   left: 26%;
+  width: 48%;
 }
 
 .screen {
+  // border: 2px solid red;
   height: 100%;
   -aspect-ratio: 3 / 1;
-  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: flex-end;
